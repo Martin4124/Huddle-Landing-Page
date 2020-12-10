@@ -1,0 +1,41 @@
+section{
+    h1{
+        font-family: $font-heading;
+        font-weight: $weight-bold;
+    }
+    p{
+        font-family: $font-body;
+        line-height: 1.6;
+    }
+    .btn{
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.4s;
+        margin-top: 10px;
+        width: 200px;
+        padding: 12px 0px 12px 0px;
+        border: none;
+        background-color: white;
+        border-radius: 20px;
+        color: $clr-bg;
+        box-shadow: 0px  1px 3px rgba(0, 0, 0, 0.6);
+        cursor: pointer;
+    }
+    .btn:hover{
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.4s;
+        transform: scale(1.05);
+        color: white;
+        background-color: $clr-text;
+    }
+}
+@media only screen and(min-width: 800px){
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+}

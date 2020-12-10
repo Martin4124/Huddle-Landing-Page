@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+header {
+  padding: 20px;
+}
+
+header img {
+  max-width: 250px;
+}
+
+main {
+  padding: 40px 20px 0px 20px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto-fill 1fr 1fr;
+      grid-template-rows: auto-fill 1fr 1fr;
+  grid-gap: 20px;
+}
+
+main section img {
+  max-width: 400px;
+}
+
+section h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+section p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+section .btn {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  margin-top: 10px;
+  width: 200px;
+  padding: 12px 0px 12px 0px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  color: #674baf;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+section .btn:hover {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: white;
+  background-color: #e882e8;
+}
+
+@media only screen and (min-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .btn {
+    font-size: 15px;
+  }
+}
+
+footer {
+  padding-top: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -ms-grid-columns: 38px 38px 38px;
+      grid-template-columns: 38px 38px 38px;
+  grid-column-gap: 10px;
+}
+
+#facebook {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  text-align: center;
+  background: url(/images/401-facebook.svg);
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background-size: 15px;
+  border-radius: 50%;
+  border: solid white 2px;
+  background-repeat: no-repeat;
+  background-position: 8.3px;
+  margin-right: 10px;
+}
+
+#twitter {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background: url(/images/407-twitter.svg);
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background-size: 15px;
+  border-radius: 50%;
+  border: solid white 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+#instagram {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  background: url(/images/403-instagram.svg);
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background-size: 15px;
+  border-radius: 50%;
+  border: solid white 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+#facebook:hover {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: url("/images/401,5-facebook.svg");
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background-size: 15px;
+  border-radius: 50%;
+  border: solid #e882e8 2px;
+  background-repeat: no-repeat;
+  background-position: 8.3px;
+  margin-right: 10px;
+}
+
+#twitter:hover {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: url("/images/407,5-twitter.svg");
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background-size: 15px;
+  border-radius: 50%;
+  border: solid #e882e8 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+#instagram:hover {
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: url("/images/403,5-instagram.svg");
+  width: 20px;
+  height: 20px;
+  padding: 6px;
+  background-size: 15px;
+  border-radius: 50%;
+  border: solid #e882e8 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+}
+
+body {
+  background-color: #674baf;
+  color: white;
+  background-image: url("/images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: end;
+}
+/*# sourceMappingURL=style.css.map */
