@@ -8,6 +8,7 @@ section{
         line-height: 1.6;
     }
     .btn{
+        transition-property: transform, background-color;
         transition-timing-function: ease-in-out;
         transition-duration: 0.4s;
         margin-top: 10px;
@@ -37,5 +38,13 @@ section{
     }
     .btn{
         font-size: 15px;
+    }
+}
+@media only screen and(min-width: 1200px){
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
     }
 }

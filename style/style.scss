@@ -8,9 +8,13 @@ body{
     color :white;
     background-image: url("/images/bg-mobile.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: end;
+    background-size: cover;
 }
 @media only screen and(min-width: 800px){
-    
+    body{
+        background-image: url("/images/bg-desktop.svg");
+        background-size: cover;
+        min-height: 100vh;
+    }
 }
+
